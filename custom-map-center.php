@@ -7,8 +7,8 @@
  * the lat/lng coordinates of the map to use the coordinates of the post in
  * which the map is displayed. Must be used within The Loop.
  *
- * @param array $map_data Localized JSON data used to construct the map.
- * @return array
+ * @param array $map_data Map data used to construct the Google Map.
+ * @return array Filtered array of map data.
  */
 function my_custom_map_center( $map_data ) {
 	// Get the current post ID.
